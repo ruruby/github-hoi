@@ -9,9 +9,6 @@ if(isset($_POST['id']) && isset($_POST['id']) != "")
     $user_id = $_POST['id'];
 
     // delete User
-    $query = "";
-    if (!$result = mysqli_query($db,$query)) {
-        exit(mysqli_error());
-    }
+    $query = "DELETE FROM DB";
 }
 ?>
